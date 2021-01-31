@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', function(){
   });
 
   //Timer
-  var deadLine = '2020-12-30';
+  var deadLine = '2021-12-30';
   function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date()),
         seconds = Math.floor((t/1000) % 60),
